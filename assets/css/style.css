@@ -8,12 +8,12 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: #BE3E09;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #BE3E09;
   text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #BE3E09;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -50,7 +50,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #BE3E09;
   color: #fff;
 }
 
@@ -78,7 +78,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #BE3E09;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -204,7 +204,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  background: #BE3E09;
 }
 
 .nav-menu a:hover span,
@@ -258,7 +258,7 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #0563bb;
+  background-color: #BE3E09;
 }
 
 /*--------------------------------------------------------------
@@ -267,16 +267,29 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
-  background-size: cover;
+  background: url("../img/Rectangle\ 27.png") top right no-repeat;
+  background-size: 100%;
+  background-position-y: -220px;
   position: relative;
 }
 
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
+    
   }
+
+  
 }
+
+@media (max-width: 500px) {
+  #hero {
+    background-size: 140%;
+    background-position-y: 1%;
+    background-position-x: 100%;
+    position: relative;
+  }
+} 
 
 #hero:before {
   content: "";
@@ -290,7 +303,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
@@ -304,7 +317,7 @@ h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #BE3E09;
   letter-spacing: 1px;
 }
 
@@ -322,7 +335,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #BE3E09;
 }
 
 @media (max-width: 992px) {
@@ -382,7 +395,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #BE3E09;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -418,7 +431,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #0563bb;
+  color: #BE3E09;
   line-height: 0;
 }
 
@@ -426,10 +439,12 @@ section {
   margin-bottom: 0;
 }
 
+
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
-.facts .count-box {
+/* .facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
   width: 100%;
@@ -444,7 +459,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
+  background: #BE3E09;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -466,10 +481,10 @@ section {
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-}
+} */
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -501,7 +516,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: #BE3E09;
 }
 
 /*--------------------------------------------------------------
@@ -518,7 +533,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #BE3E09;
   position: relative;
 }
 
@@ -528,7 +543,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #BE3E09;
   margin-bottom: 10px;
 }
 
@@ -562,7 +577,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #BE3E09;
 }
 
 /*--------------------------------------------------------------
@@ -597,7 +612,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #BE3E09;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -697,7 +712,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #148af9;
+  color: #BE3E09;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -743,11 +758,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #BE3E09;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #BE3E09;
 }
 
 .portfolio-details .portfolio-info {
@@ -849,7 +864,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #BE3E09;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -857,15 +872,15 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #BE3E09;
 }
 
 .services .iconbox-orange i {
-  color: #ffa76e;
+  color: #BE3E09
 }
 
 .services .iconbox-orange:hover .icon i {
-  color: #fff;
+  color: #BE3E09;
 }
 
 .services .iconbox-orange:hover .icon path {
@@ -958,7 +973,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #90c8fc;
+  color: #BE3E09;
   font-size: 26px;
 }
 
@@ -990,11 +1005,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #BE3E09;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #BE3E09;
 }
 
 @media (min-width: 992px) {
@@ -1048,7 +1063,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #BE3E09;
   color: #fff;
 }
 
@@ -1097,7 +1112,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #BE3E09;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1119,7 +1134,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #0563bb;
+  background: #BE3E09;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1128,7 +1143,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0678e3;
+  background: #BE3E09;
 }
 
 @keyframes animate-loading {
@@ -1175,7 +1190,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #BE3E09;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1188,7 +1203,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #BE3E09;
   color: #fff;
   text-decoration: none;
 }
