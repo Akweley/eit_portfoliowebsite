@@ -1215,3 +1215,11 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+#my-logo{
+  width: 60px;
+  position:fixed;
+  top:10px;
+  left:15px;
+  z-index: 99;
+  border-radius: 50px;
+}
