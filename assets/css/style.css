@@ -880,15 +880,15 @@ section {
 }
 
 .services .iconbox-orange:hover .icon i {
-  color: #BE3E09;
+  color: #fff;
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #BE3E09;
 }
 
 .services .iconbox-pink i {
-  color: #e80368;
+  color: #BE3E09;
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -896,11 +896,11 @@ section {
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: #BE3E09;
 }
 
 .services .iconbox-yellow i {
-  color: #ffbb2c;
+  color: #BE3E09;
 }
 
 .services .iconbox-yellow:hover .icon i {
@@ -908,11 +908,11 @@ section {
 }
 
 .services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
+  fill: #BE3E09;
 }
 
 .services .iconbox-red i {
-  color: #ff5828;
+  color: #BE3E09;
 }
 
 .services .iconbox-red:hover .icon i {
@@ -920,11 +920,11 @@ section {
 }
 
 .services .iconbox-red:hover .icon path {
-  fill: #ff5828;
+  fill: #BE3E09;
 }
 
 .services .iconbox-teal i {
-  color: #11dbcf;
+  color: #BE3E09;
 }
 
 .services .iconbox-teal:hover .icon i {
@@ -932,7 +932,7 @@ section {
 }
 
 .services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
+  fill: #BE3E09;
 }
 
 /*--------------------------------------------------------------
@@ -1028,7 +1028,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #BE3E09;
   float: left;
   width: 44px;
   height: 44px;
@@ -1079,7 +1079,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #BE3E09;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1092,7 +1092,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #BE3E09;
   text-align: center;
   padding: 15px;
   font-weight: 600;
